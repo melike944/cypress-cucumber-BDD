@@ -34,6 +34,7 @@ class CartPage {
     navigatePreviousPage() {
         
         cy.go('back');
+        //cy.go('forword');
     }
 
 }

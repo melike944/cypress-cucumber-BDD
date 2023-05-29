@@ -5,6 +5,7 @@ class HomePage {
     }
     clickBrowserMenu() {
         cy.xpath('//button[contains(@class,"Header-Menu Header-Menu_type_menu")]').click();
+        //cy.get('.Header-Menu.Header-Menu_type_menu');
     }
 
     clickMathematicsCategory() {
@@ -12,6 +13,7 @@ class HomePage {
         //     cy.contains('mathematics').click(); // Clicks the menu option with the text "Menu Option 1"
         //   });
         cy.xpath('(//span[contains(@class,"mathematics")])[1]').click();
+        //cy.contains('li','mathematics').click();
     }
 
 

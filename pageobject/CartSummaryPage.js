@@ -7,6 +7,7 @@ validateMsWithBookName(){
 
 clickRemoveButton(){
     cy.get("[name='RemoveItem']").click();
+    
 }
 
 moveMouseOnCartIcon(){
